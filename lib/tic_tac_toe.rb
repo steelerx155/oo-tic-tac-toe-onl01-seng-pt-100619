@@ -55,5 +55,13 @@ def position_taken?(index_i)
   end
   return number_of_turns
 end
+
+def current_player
+    if turn_count % 2 == 0
+    "X"
+    else
+    "O"
+  end
+  
 end  
   
