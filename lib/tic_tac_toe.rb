@@ -16,7 +16,7 @@ attr_accessor  :board, :WIN_COMBINATIONS, :display_board
 
 def initialize
   @board = Array.new(9, " ")
- end
+ 
 end
 
 def display_board
