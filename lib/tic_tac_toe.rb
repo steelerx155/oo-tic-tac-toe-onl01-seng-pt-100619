@@ -54,6 +54,6 @@ def position_taken?(index_i)
     end
   end
   return number_of_turns
-  
+end
 end  
   
