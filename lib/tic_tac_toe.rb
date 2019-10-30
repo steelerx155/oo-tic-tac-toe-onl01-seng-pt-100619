@@ -14,14 +14,16 @@ attr_accessor  :board, :WIN_COMBINATIONS
     [6, 4, 2]
   ]
 
+def display_board
+  puts self
+ end
+
 def initialize
   @board = Array.new(9, " ")
  end
 end
  
- def display_board
-  puts self
- end
+ 
    
  
 
