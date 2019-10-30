@@ -81,9 +81,7 @@ def input_to_index(user_input)
       false
   end
 end
-end
-  
-end  
+
   
  
    
