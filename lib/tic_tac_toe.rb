@@ -79,4 +79,4 @@ def input_to_index(user_input)
       return win_combo
     end
       false
-  end
+  
