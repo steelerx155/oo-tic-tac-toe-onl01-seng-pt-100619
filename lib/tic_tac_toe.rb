@@ -19,7 +19,7 @@ def initialize
  end
 end
  
- 
+ def display_board
    
  
 
