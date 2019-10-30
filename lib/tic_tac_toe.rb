@@ -15,7 +15,7 @@ attr_accessor  :board, :WIN_COMBINATIONS
   ]
 
 def display_board
-  puts @board
+  puts @board.self
  end
 
 def initialize
