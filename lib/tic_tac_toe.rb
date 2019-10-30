@@ -1,6 +1,6 @@
 require_relative '../lib/tic_tac_toe.rb'
 
-lass TicTacToe
+class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
   end
