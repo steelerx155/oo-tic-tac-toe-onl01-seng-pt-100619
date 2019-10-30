@@ -20,7 +20,7 @@ def initialize
 end
  
  def display_board
-  puts @board
+  puts self
  end
    
  
