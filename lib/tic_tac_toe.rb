@@ -1,7 +1,7 @@
 require_relative '../lib/tic_tac_toe.rb'
 class TicTacToe
   
-attr_accessor  :board, :WIN_COMBINATIONS
+attr_accessor  :board, :WIN_COMBINATIONS, :display_board
 
  WIN_COMBINATIONS = [
     [0, 1, 2],
@@ -14,15 +14,16 @@ attr_accessor  :board, :WIN_COMBINATIONS
     [6, 4, 2]
   ]
 
-def display_board(current)
- current << @board
- end
-
 def initialize
   @board = Array.new(9, " ")
  end
 end
- 
+
+def display_board
+  puts @board
+ end
+end 
+
  
    
  
