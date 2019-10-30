@@ -121,9 +121,9 @@ def play
 end
 end
 
-#bin/tictactoe
-#require 'pry'
-#require_relative '../lib/tic_tac_toe.rb'
+bin/tictactoe
+require 'pry'
+require_relative '../lib/tic_tac_toe.rb'
 
-#game = TicTacToe.new
-#game.play
+game = TicTacToe.new
+game.play
