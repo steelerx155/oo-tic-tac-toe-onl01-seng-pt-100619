@@ -20,6 +20,8 @@ def initialize
 end
  
  def display_board
+   @board
+ end
    
  
 
