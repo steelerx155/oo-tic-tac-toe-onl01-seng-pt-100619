@@ -53,7 +53,6 @@ WIN_COMBINATIONS = [
     end
   end
   return number_of_turns
-  
 
   def current_player
     if turn_count % 2 == 0
@@ -62,7 +61,6 @@ WIN_COMBINATIONS = [
     "O"
   end
  
-#turn 
 def turn
     puts "Please enter 1-9:"
     input = gets.strip
@@ -76,7 +74,6 @@ def turn
     end
 end
 
-#won?
 def won?
   WIN_COMBINATIONS.detect do |win_combo|
     if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
@@ -88,22 +85,21 @@ def won?
   end
 end
 
-#full?
+
 def full?
   @board.all?{|occupied| occupied != " "}
 end
 
-#draw
+
 def draw?
   !(won?) && (full?)
 end
 
-#over?
+
 def over?
   won? || full? || draw?
 end
 
-#winner?
 def winner
   WIN_COMBINATIONS.detect do |win_combo|
     if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
@@ -117,7 +113,7 @@ def winner
 end
 end
 
-#play
+
 def play
   while over? == false
     turn
